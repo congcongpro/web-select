@@ -7,5 +7,6 @@ chrome.commands.onCommand.addListener((command) => {
       const response = await chrome.tabs.sendMessage(tab.id, {commandRun: true});
       console.log(response);
     }
+    return true;
   })();
 });
