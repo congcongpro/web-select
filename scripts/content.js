@@ -35,7 +35,6 @@ class WebSelect {
     this.mouseMove = (e)=>{this.mouseMoveHandler(e,this);}
     this.mouseUp = (e)=>{this.mouseUpHandler(e,this);}
     if (!WebSelect.instance) {
-      // console.log("WebSelect initialize...");
       WebSelect.instance = this;
     }
     return WebSelect.instance;
@@ -123,7 +122,7 @@ class WebSelect {
       // 排序，根据页面元素顺序排序
       outputArry.sort(that.sortByDOMOrder);
       let textArray = outputArry.map(element => element.innerText);
-      console.log(textArray);
+      // console.log(textArray);
       if (textArray.length > 0){
         that.writeToClipboard(textArray.join('\n'));
       }
@@ -211,7 +210,7 @@ class WebSelect {
     // 排序，根据页面元素顺序排序
     outputArry.sort(that.sortByDOMOrder);
     let textArray = outputArry.map(element => element.innerText);
-    console.log(textArray);
+    // console.log(textArray);
     if (textArray.length > 0){
       that.writeToClipboard(textArray.join('\n'));
     } 
