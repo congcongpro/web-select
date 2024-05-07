@@ -1,0 +1,78 @@
+{
+  "extName": {
+    "message": "网页选择",
+    "description": "插件名"
+  },
+  "extDescription": {
+    "message": "在网页上你可以拖动选框选择文本元素，然后复制它。",
+    "description": "插件描述"
+  },
+  "selectBtn": {
+    "message": "选择",
+    "description": "选择按钮"  
+  },
+  "enableFeature": {
+    "message": "启用功能",
+    "description": "启用功能选框"
+  },
+  "model": {
+    "message": "选择模式",
+    "description": "选择模式文字"
+  },
+  "singleModel": {
+    "message": "单次选择",
+    "description": "单次选择文字"
+  },
+  "multiMode": {
+    "message": "多次选择",
+    "description": "多次选择文字"
+  },
+  "shortcutKey": {
+    "message": "快捷键",
+    "description": "快捷键文字"
+  },
+  "selecting": {
+    "message": "选择中",
+    "description": "选择中文字"
+  },
+  "copy": {
+    "message": "复制",
+    "description": "选择中文字"
+  },
+  "cancel": {
+    "message": "取消",
+    "description": "选择中文字"
+  },
+  "readme": {
+    "message": "说明",
+    "description": "说明文字"
+  },
+  "runStopKey": {
+    "message": "启停网页选择",
+    "description": "启停网页选择文字（快捷键）"
+  },
+  "unset": {
+    "message": "未设置",
+    "description": "未设置文字"
+  },
+  "pageDisabled": {
+    "message": "本页面禁用",
+    "description": "页面禁用文字"
+  },
+  "enableElementSelection": {
+    "message": "开启元素选择",
+    "description": "开启元素选择文字"
+  },
+  "disableElementSelection": {
+    "message": "关闭元素选择",
+    "description": "关闭元素选择文字"
+  },
+  "copied": {
+    "message": "已复制",
+    "description": "已复制文字"
+  },
+  "copyFailed": {
+    "message": "复制失败，请 Ctrl+C 复制本文！",
+    "description": "复制失败文字"
+  }
+}

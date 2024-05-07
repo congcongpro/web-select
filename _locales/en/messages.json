@@ -1,0 +1,78 @@
+{
+  "extName": {
+    "message": "Web Select",
+    "description": "Name of the extension"
+  },
+  "extDescription": {
+    "message": "You can drag a selection box on the web page to select text elements and copy them.",
+    "description": "Description of the extension"
+  },
+  "selectBtn": {
+    "message": "Select",
+    "description": "Selection button"
+  },
+  "enableFeature": {
+    "message": "Enable Feature",
+    "description": "Checkbox for enabling the feature"
+  },
+  "model": {
+    "message": "Mode",
+    "description": "Text for selection mode"
+  },
+  "singleModel": {
+    "message": "Single selection",
+    "description": "Text for single selection mode"
+  },
+  "multiMode": {
+    "message": "Multiple selection",
+    "description": "Text for multiple selection mode"
+  },
+  "shortcutKey": {
+    "message": "Shortcut Key",
+    "description": "Text for shortcut key"
+  },
+  "selecting": {
+    "message": "Selecting",
+    "description": "Text indicating an ongoing selection process"
+  },
+  "copy": {
+    "message": "Copy",
+    "description": "Text for copy action"
+  },
+  "cancel": {
+    "message": "Cancel",
+    "description": "Text for cancel action"
+  },
+  "readme": {
+    "message": "Read me",
+    "description": "Text for read me"
+  },
+  "runStopKey": {
+    "message": "Run&Stop Web select",
+    "description": "Text for run&stop Web select in command"
+  },
+  "unset": {
+    "message": "Unset",
+    "description": "Text for Unset"
+  },
+  "pageDisabled": {
+    "message": "Page is disabled",
+    "description": "Text for page is disabled"
+  },
+  "enableElementSelection": {
+    "message": "Enable selection",
+    "description": "Text for enable element selection"
+  },
+  "disableElementSelection": {
+    "message": "Disable selection",
+    "description": "Text for disable element selection"
+  },
+  "copied": {
+    "message": "Copied",
+    "description": "Text for copied"
+  },
+  "copyFailed": {
+    "message": "Copy failed. Please use Ctrl+C to copy the text!",
+    "description": "Text for copy failed"
+  }
+}
