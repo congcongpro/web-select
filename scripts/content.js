@@ -122,7 +122,6 @@ class WebSelect {
       // 排序，根据页面元素顺序排序
       outputArry.sort(that.sortByDOMOrder);
       let textArray = outputArry.map(element => element.innerText);
-      // console.log(textArray);
       if (textArray.length > 0){
         that.writeToClipboard(textArray.join('\n'));
       }
@@ -210,7 +209,6 @@ class WebSelect {
     // 排序，根据页面元素顺序排序
     outputArry.sort(that.sortByDOMOrder);
     let textArray = outputArry.map(element => element.innerText);
-    // console.log(textArray);
     if (textArray.length > 0){
       that.writeToClipboard(textArray.join('\n'));
     } 
@@ -354,10 +352,6 @@ chrome.storage.sync.get({ runSwitch: true, modeRadio: '0' }).then((result) => {
 // 接收消息
 chrome.runtime.onMessage.addListener(
   function(request, sender, sendResponse) {
-    // console.log("接收到来自popup的消息...runSwitch",request.runSwitch);
-    // console.log("接收到来自popup的消息...modeRadio",request.modeRadio);
-    // console.log("接收到来自popup的消息...selectBtn",request.selectBtn);
-    // console.log("接收到来自service-worker的消息...commandRun",request.commandRun);
     if (request.runSwitch != null || request.modeRadio != null || 
       request.selectBtn != null){
       if (this.multiSeleBox != null) {
