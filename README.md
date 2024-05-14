@@ -1,6 +1,11 @@
 # 网页选择插件说明 Web Select Plugin Description
 
- 
+
+
+
+Edge Extension:[https://microsoftedge.microsoft.com/addons/detail/leghljijaiknmgfjejepkcnpandgbohh](https://microsoftedge.microsoft.com/addons/detail/leghljijaiknmgfjejepkcnpandgbohh)
+
+
 
 ## 1.这是什么？ What's this?
 
